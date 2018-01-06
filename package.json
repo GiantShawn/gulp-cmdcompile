@@ -1,20 +1,20 @@
 {
-  "name": "gulp-cmdcompile",
-  "version": "1.1.0",
-  "description": "Command line compilation plugin for gulp.js",
+  "name": "gulp-parcel",
+  "version": "0.2.7",
+  "description": "parcel plugin for gulp.js",
   "main": "index.js",
-  "repository": "https://github.com/giantshawn/gulp-cmdcompile.git",
-  "author": "Shawn Li <shawn@shawnli.org>",
+  "repository": "https://github.com/zacky1972/gulp-parcel.git",
+  "author": "Susumu Yamazaki <zacky1972@gmail.com>",
   "license": "MIT",
   "keywords": [
     "build",
-    "compile",
-    "command line",
+    "parcel",
     "gulp",
     "gulpplugin"
   ],
-  "peerDependencies": {
-    "gulp-util": "^3.0.8",
+  "dependencies": {
+    "parcel-bundler": "zacky1972/parcel#master",
+    "plugin-error": "^0.1.2",
     "through2": "^2.0.3"
   }
 }
